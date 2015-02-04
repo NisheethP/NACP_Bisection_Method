@@ -1,7 +1,6 @@
 #include "Functions.h"
 #include <iostream>
 #include <cctype>
-#include "Constants.h"
 
 using std::string;
 
@@ -634,7 +633,7 @@ bool Diff_To_String(Difficulty diff, string& str)
 		str = "Easy";
 		return true;
 	case Diff_Error:
-		str = Constants::ErrorDiff;
+		str = "DIFF_ERROR";
 	default:
 		return false;
 	}
