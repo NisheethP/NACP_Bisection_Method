@@ -24,7 +24,7 @@
     <ClCompile Include="Button.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Equation.cpp">
+    <ClCompile Include="Polynomial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="Button.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Equation.h">
+    <ClInclude Include="Polynomial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
