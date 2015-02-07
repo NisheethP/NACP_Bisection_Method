@@ -5,11 +5,6 @@
 
 int main()
 {
-	Equation eqn1;
-	eqn1.setStr("(()(()))");
-
-	findRoot(eqn1);
-
 	PressAnyKey();
 	return 0;
 }
