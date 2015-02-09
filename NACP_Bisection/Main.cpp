@@ -1,9 +1,9 @@
 #include "Button.h"
 #include "Functions.h"
-#include "Equation.h"
 #include <iostream>
 #include "Polynomial.h"
 
+void drawButton(Button);
 
 int main()
 {
@@ -34,4 +34,17 @@ int main()
 	
 	PressAnyKey();
 	return 0;
+}
+
+void drawButton(Button button)
+{
+	Coord tempCoord = button.rButtonCoord();
+	gotoxy(tempCoord);
+	for (int row = 0; row < button.rSize().y; row++)
+	{
+		SetColour
+			(Coord(tempCoord.x, tempCoord.y+row),
+			button.rSize().x
+			);
+	}
 }
