@@ -3,6 +3,9 @@
 #define _OPERATORS_H_
 
 #include "Equation.h"
+
+Operator tokenToOper(Token tok);
+
 class Operators
 {
 public:
@@ -12,6 +15,9 @@ public:
 	static Operator operMultiply;
 	static Operator operPower;
 	static Operator operSquare;
+	static Operator operLeftParan;
+	static Operator operRightParan;
+	static Operator operNegative;
 };
 
 
