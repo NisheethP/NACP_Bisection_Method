@@ -27,6 +27,12 @@
     <ClCompile Include="Polynomial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Equation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Operators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operators.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
